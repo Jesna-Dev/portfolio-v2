@@ -3,13 +3,15 @@ import MagneticButton from "./MagneticButton";
 import Reveal from "./Reveal";
 
 const EMAIL = "jesnakelizabethjolly@gmail.com";
-const PHONE_DISPLAY = "+971 568 177 176";
-const PHONE_HREF = "tel:+971568177176";
+const PHONE_DISPLAY = "+91 7560 9598 85";
+const PHONE_HREF = "tel:+917560959885";
 
 // NOTE: replace the LinkedIn / Instagram URLs below with Jesna's real handles.
 const SOCIALS = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/" },
-  { label: "Instagram", href: "https://www.instagram.com/" },
+  {
+    label: "LinkedIn",
+    href: "https://in.linkedin.com/in/jesna-k-elizabeth-jolly",
+  },
   { label: "Download CV", href: "/Jesna-K-Elizabeth-Jolly-CV.pdf" },
 ];
 
@@ -30,7 +32,12 @@ export default function Contact() {
             <SplitText text="Let's make" inView stagger={0.04} />
           </span>
           <span className="block overflow-hidden text-coral">
-            <SplitText text="something good." inView delay={0.1} stagger={0.04} />
+            <SplitText
+              text="something good."
+              inView
+              delay={0.1}
+              stagger={0.04}
+            />
           </span>
         </h2>
 
