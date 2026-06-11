@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import SplitText from "./SplitText";
 import Marquee from "./Marquee";
 import MagneticButton from "./MagneticButton";
+import HeroDecor from "./HeroDecor";
 import { scrollToId } from "@/lib/scrollTo";
 import { EASE } from "@/lib/motion";
 
@@ -34,10 +35,6 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute -left-[10%] top-[6%] h-[34vmax] w-[34vmax] rounded-full bg-coral/20 blur-[90px] animate-floatX" />
         <div className="absolute -right-[8%] bottom-0 h-[30vmax] w-[30vmax] rounded-full bg-pine/12 blur-[90px] animate-float" />
-        <div className="absolute left-[12%] top-[32%] hidden h-16 w-16 rounded-2xl bg-ochre/70 animate-float [animation-delay:-2s] sm:block" />
-        <div className="absolute right-[15%] top-[26%] hidden h-20 w-20 rounded-full border-2 border-pine/40 animate-floatX [animation-delay:-4s] sm:block" />
-        <div className="absolute right-[27%] bottom-[22%] hidden h-9 w-9 rounded-full bg-coral animate-float [animation-delay:-1s] md:block" />
-        <div className="absolute left-[20%] bottom-[15%] hidden h-12 w-12 rotate-12 rounded-xl bg-sage/70 animate-spinSlow lg:block" />
       </div>
 
       {/* Top eyebrow row */}
@@ -53,28 +50,21 @@ export default function Hero() {
 
       {/* Center content */}
       <div className="section relative z-10 mx-auto w-full max-w-[1600px]">
-        <motion.span
-          {...fade(0.2)}
-          className="chip mb-7 gap-2.5 border-ink/20 bg-cream/60 backdrop-blur-sm"
-        >
-          <span className="relative flex h-2.5 w-2.5">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-coral opacity-75" />
-            <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-coral" />
-          </span>
-          Open to new opportunities
-        </motion.span>
-
         <motion.p
-          {...fade(0.3)}
+          {...fade(0.2)}
           className="display mb-1 text-[clamp(1.4rem,4vw,2.6rem)] font-semibold text-ink/50"
         >
           Hey, I&apos;m
         </motion.p>
 
-        <h1 className="display text-[clamp(4.2rem,21vw,17rem)] leading-[0.82]">
-          <SplitText text="Jesna" delay={0.35} stagger={0.05} />
-          <span className="text-coral">.</span>
-        </h1>
+        <div className="relative">
+          <h1 className="display text-[clamp(4.2rem,21vw,17rem)] leading-[0.82]">
+            <SplitText text="Jesna" delay={0.35} stagger={0.05} />
+            <span className="text-coral">.</span>
+          </h1>
+          {/* design-tool doodles floating around the name (large screens) */}
+          <HeroDecor />
+        </div>
 
         <motion.p
           {...fade(0.5)}
