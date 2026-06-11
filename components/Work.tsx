@@ -98,7 +98,6 @@ function Card({ p }: { p: Project }) {
       variants={fadeUp}
       whileHover={{ y: -6 }}
       transition={{ type: "spring", stiffness: 300, damping: 24 }}
-      data-cursor-label="View"
       className={`group relative overflow-hidden rounded-3xl border border-ink/15 bg-cream transition-shadow duration-500 hover:shadow-[0_24px_60px_-26px_rgba(0,0,0,0.28)] ${
         p.featured ? "lg:col-span-2 lg:grid lg:grid-cols-2" : ""
       }`}
@@ -128,7 +127,7 @@ function Card({ p }: { p: Project }) {
           {p.n}
         </span>
         {/* category pill */}
-        <span className="mono-label absolute right-5 top-5 z-10 rounded-full bg-cream/90 px-3 py-1 text-ink/80 backdrop-blur-sm">
+        <span className="mono-label absolute right-5 top-5 z-10 rounded-full bg-cream/95 px-3 py-1 text-ink/80">
           {p.category}
         </span>
       </div>

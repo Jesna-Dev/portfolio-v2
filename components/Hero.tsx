@@ -33,8 +33,8 @@ export default function Hero() {
     >
       {/* Lightweight, non-canvas background */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute -left-[10%] top-[6%] h-[34vmax] w-[34vmax] rounded-full bg-coral/20 blur-[90px] animate-floatX" />
-        <div className="absolute -right-[8%] bottom-0 h-[30vmax] w-[30vmax] rounded-full bg-pine/12 blur-[90px] animate-float" />
+        <div className="absolute -left-[10%] top-[6%] h-[26vmax] w-[26vmax] rounded-full bg-coral/20 blur-[64px]" />
+        <div className="absolute -right-[8%] bottom-0 h-[24vmax] w-[24vmax] rounded-full bg-pine/12 blur-[64px]" />
       </div>
 
       {/* Top eyebrow row */}
@@ -107,7 +107,7 @@ export default function Hero() {
       {/* Bottom marquee */}
       <motion.div
         {...fade(0.8)}
-        className="relative z-10 mt-10 border-y border-ink/15 bg-cream/40 py-3 backdrop-blur-sm"
+        className="relative z-10 mt-10 border-y border-ink/15 bg-cream/80 py-3"
       >
         <Marquee
           items={MARQUEE}

@@ -10,13 +10,12 @@ import {
 
 /**
  * Big collaborative-UI style cursor: a chunky pointer with a coral (primary)
- * outline, plus a coral "name tag" that appears over project cards — like a
- * live multiplayer cursor. Desktop / fine-pointer only; respects reduced motion.
+ * outline and a soft shadow. Scales slightly over interactive elements and
+ * dips on click. Desktop / fine-pointer only; respects reduced motion.
  */
 export default function Cursor() {
   const [active, setActive] = useState(false);
   const [hovering, setHovering] = useState(false);
-  const [label, setLabel] = useState<string | null>(null);
   const [pressed, setPressed] = useState(false);
   const reduce = useReducedMotion();
 
@@ -38,22 +37,12 @@ export default function Cursor() {
       y.set(e.clientY);
     };
     const over = (e: MouseEvent) => {
-      const t = e.target as HTMLElement;
-      const labelled = t.closest("[data-cursor-label]") as HTMLElement | null;
-      if (labelled) {
+      if ((e.target as HTMLElement).closest("a, button, [data-cursor]"))
         setHovering(true);
-        setLabel(labelled.getAttribute("data-cursor-label"));
-      } else if (t.closest("a, button, [data-cursor]")) {
-        setHovering(true);
-        setLabel(null);
-      }
     };
     const out = (e: MouseEvent) => {
-      const t = e.target as HTMLElement;
-      if (t.closest("a, button, [data-cursor], [data-cursor-label]")) {
+      if ((e.target as HTMLElement).closest("a, button, [data-cursor]"))
         setHovering(false);
-        setLabel(null);
-      }
     };
     const down = () => setPressed(true);
     const up = () => setPressed(false);
@@ -88,7 +77,7 @@ export default function Cursor() {
           transition={{ type: "spring", stiffness: 400, damping: 24 }}
           style={{ originX: 0, originY: 0 }}
         >
-          {/* Big pointer with coral outline */}
+          {/* Big pointer with a coral outline */}
           <svg
             width="40"
             height="40"
@@ -104,23 +93,10 @@ export default function Cursor() {
               d="M4.037 4.688a.495.495 0 0 1 .651-.651l16 6.5a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063z"
               fill="#FFFFFF"
               stroke="#FB5A35"
-              strokeWidth="1.8"
+              strokeWidth="1.4"
               strokeLinejoin="round"
             />
           </svg>
-
-          {/* Collaborative-style name tag */}
-          <motion.div
-            animate={{
-              opacity: label ? 1 : 0,
-              scale: label ? 1 : 0.7,
-              y: label ? 0 : -4,
-            }}
-            transition={{ duration: 0.18, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute left-[18px] top-[22px] whitespace-nowrap rounded-full rounded-tl-sm bg-coral px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider text-cream shadow-[0_4px_10px_-2px_rgba(251,90,53,0.5)]"
-          >
-            {label}
-          </motion.div>
         </motion.div>
       </motion.div>
     </div>

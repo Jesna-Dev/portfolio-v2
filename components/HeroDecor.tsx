@@ -116,7 +116,7 @@ export default function HeroDecor() {
       {DOODLES.map((d, i) => (
         <div key={i} className={`pointer-events-none absolute ${d.vis} ${d.pos} ${d.anim}`}>
           <div
-            className="grid h-11 w-11 place-items-center rounded-xl border border-ink/10 bg-cream/90 shadow-[0_12px_30px_-14px_rgba(0,0,0,0.32)] backdrop-blur-sm lg:h-14 lg:w-14 lg:rounded-2xl"
+            className="grid h-11 w-11 place-items-center rounded-xl border border-ink/10 bg-cream/95 shadow-[0_12px_30px_-14px_rgba(0,0,0,0.32)] lg:h-14 lg:w-14 lg:rounded-2xl"
             style={{ transform: `rotate(${d.tilt}deg)` }}
           >
             {d.icon}
