@@ -12,7 +12,7 @@ const SOCIALS = [
     label: "LinkedIn",
     href: "https://in.linkedin.com/in/jesna-k-elizabeth-jolly",
   },
-  { label: "Download CV", href: "/Jesna-K-Elizabeth-Jolly-CV.pdf" },
+  { label: "Download CV", href: "/Jesna-K-Elizabeth-Jolly-Resume.pdf" },
 ];
 
 export default function Contact() {

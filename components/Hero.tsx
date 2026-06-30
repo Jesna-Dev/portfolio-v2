@@ -101,6 +101,15 @@ export default function Hero() {
           >
             Get in touch
           </MagneticButton>
+          <MagneticButton
+            href="/Jesna-K-Elizabeth-Jolly-Resume.pdf"
+            target="_blank"
+            ariaLabel="Download CV (PDF)"
+            className="group inline-flex items-center gap-2 rounded-full border border-ink/25 px-7 py-4 text-base font-semibold text-ink transition-colors hover:bg-ink hover:text-cream"
+          >
+            Download CV
+            <span className="gh-x">↓</span>
+          </MagneticButton>
         </motion.div>
       </div>
 

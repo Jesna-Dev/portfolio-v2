@@ -14,40 +14,40 @@ type Role = {
 
 const TIMELINE: Role[] = [
   {
-    year: "Now",
-    company: "UI/UX Designer",
-    role: "Product & UI/UX Design · Kochi, India",
+    year: "2026",
+    company: "Fegno Technologies",
+    role: "UX/UI Designer · Kochi, India",
     blurb:
-      "Designing end-to-end product experiences — and open to new opportunities with teams who care about craft.",
+      "Designing modern interfaces for websites and apps, plus engaging visuals for marketing and branding — collaborating with clients on clean, intuitive, user-focused solutions.",
     current: true,
+  },
+  {
+    year: "2025–26",
+    company: "Freelance",
+    role: "UX/UI Designer · Kochi, India",
+    blurb:
+      "Created design themes for websites, apps and marketing materials, plus digital graphics for client campaigns — partnering closely with clients on clean, user-focused UI.",
   },
   {
     year: "2024",
     company: "Maa Gold LLC",
-    role: "Designer & Digital Marketing Coordinator · Dubai, UAE",
+    role: "UI/UX Designer | Product Designer · Dubai, UAE",
     blurb:
-      "Brand assets, infographics and pitch design that raised client engagement and understanding by 30%.",
-  },
-  {
-    year: "2024",
-    company: "Tower Ideas / Cosmic DNA",
-    role: "Frontend Developer · Contract, Remote",
-    blurb:
-      "Built the frontend for Sentiment Chat, an AI chat product, with a distributed UK team using Next.js & ShadCN.",
+      "Built intuitive web and app interfaces on modern design systems — producing user-focused layouts and interactive prototypes, and improving usability by refining flows from client feedback.",
   },
   {
     year: "2023–24",
     company: "Global Invisions",
-    role: "UI/UX Designer & Frontend Developer · Kochi, India",
+    role: "Frontend Developer · Kochi, India",
     blurb:
-      "Shipped the Leaders of Change app (live on the App Store), plus ERP tools and doorstep-delivery products.",
+      "Developed the Leaders of Change mobile app — engaging UAE volunteers in sustainability initiatives through training and interactive activities — working with the team to deliver a seamless product experience.",
   },
   {
     year: "2020–23",
-    company: "Navalt Electric Boats",
-    role: "Frontend Developer · Kerala, India",
+    company: "Navalt",
+    role: "Frontend Developer · Kochi, India",
     blurb:
-      "Delivered 8+ data-intensive vessel dashboards, including the flagship Milaha Analytics Platform.",
+      "Designed and developed multiple web apps for a Vessel Analytics Platform used across the marine industry — improving vessel performance monitoring with actionable operational insights.",
   },
 ];
 

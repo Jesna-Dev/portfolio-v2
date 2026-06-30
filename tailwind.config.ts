@@ -8,7 +8,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: "#F4EEE4",
+        cream: "#FFFFFF",
         ink: "#17130F",
         coral: "#FB5A35", // primary pop — kept
         pine: "#1E4A42", // deep, refined secondary (replaces blue)
