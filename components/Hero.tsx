@@ -70,8 +70,8 @@ export default function Hero() {
           {...fade(0.5)}
           className="mt-5 max-w-3xl font-display text-[clamp(1.4rem,4.2vw,3rem)] font-bold leading-[1.02] tracking-tightest"
         >
-          A <span className="text-coral">UI/UX Designer</span> &amp;{" "}
-          <span className="text-pine">Frontend Developer</span>
+          I am a <span className="text-coral">UI/UX Designer</span> crafting
+          clean, intuitive experiences that feel effortless
         </motion.p>
 
         <motion.p
