@@ -1,5 +1,5 @@
 /**
- * Floating design-tool "stickers" that orbit the hero headline — Figma,
+ * Floating design-tool "stickers" that orbit the hero headline: Figma,
  * cursor, pen tool, bézier path, swatches, frame, and a MacBook.
  * Pure SVG + CSS transforms (no canvas). Positioned relative to the name and
  * sized down on mobile; a curated subset shows per breakpoint so they stay

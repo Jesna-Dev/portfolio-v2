@@ -10,7 +10,7 @@ const config: Config = {
       colors: {
         cream: "#FFFFFF",
         ink: "#17130F",
-        coral: "#FB5A35", // primary pop — kept
+        coral: "#FB5A35", // primary pop, kept
         pine: "#1E4A42", // deep, refined secondary (replaces blue)
         clay: "#C16A4B", // muted terracotta
         ochre: "#CE9347", // muted mustard

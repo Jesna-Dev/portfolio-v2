@@ -100,7 +100,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   Parent-hover ("group") interactions, authored as plain CSS — cheap and
+   Parent-hover ("group") interactions, authored as plain CSS, cheap and
    compositor-friendly. Each parent carries `group`; children carry `gh-*`.
 --------------------------------------------------------------------------- */
 .gh-x,

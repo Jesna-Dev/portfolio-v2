@@ -6,7 +6,7 @@ import Counter from "./Counter";
 import { staggerContainer, fadeUp, viewportOnce } from "@/lib/motion";
 
 const STATS = [
-  { to: 4, suffix: "+", label: "Years in tech" },
+  { to: 5, suffix: "+", label: "Years in tech" },
   { to: 15, suffix: "+", label: "Products shipped" },
   { to: 1, suffix: "", label: "App live on the App Store" },
   { to: 30, prefix: "+", suffix: "%", label: "Client engagement lift" },
@@ -31,7 +31,7 @@ export default function About() {
           <Reveal>
             <h2 className="display text-[clamp(2rem,5.6vw,4.6rem)] leading-[0.98]">
               I design with a{" "}
-              <span className="text-pine">developer&apos;s brain</span> — and a{" "}
+              <span className="text-pine">developer&apos;s brain</span> and a{" "}
               <span className="text-coral">designer&apos;s heart</span>.
             </h2>
           </Reveal>
@@ -40,17 +40,18 @@ export default function About() {
         <div className="space-y-6 text-base leading-relaxed text-ink/75 md:text-lg lg:col-span-4">
           <Reveal y={22}>
             <p>
-              For four years I shipped data-intensive React and React Native
-              apps — vessel-tracking dashboards, ERP systems, an AI chat
+              For 3+ years I shipped data-intensive React and React Native
+              apps like vessel-tracking dashboards, ERP systems, an AI chat
               product, and a volunteering app that&apos;s live on the App Store.
               Designing those interfaces is what pulled me toward UX.
             </p>
           </Reveal>
           <Reveal y={22} delay={0.08}>
             <p>
-              Today I&apos;m a UI/UX designer based in{" "}
+              Today, with 2+ years in UI/UX and product design, I&apos;m based
+              in{" "}
               <span className="font-semibold text-ink">Kochi, Kerala</span>. I
-              bridge design and engineering — I can run discovery, ship a Figma
+              bridge design and engineering. I can run discovery, ship a Figma
               system, then build it in production. Fewer handoff gaps, and
               interfaces that feel the way they looked in the mockup.
             </p>

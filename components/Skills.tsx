@@ -8,23 +8,41 @@ import { staggerContainer, fadeUp, viewportOnce } from "@/lib/motion";
 const DESIGN = [
   "Product Design",
   "UI Design",
-  "UX Research",
+  "User Research",
   "Wireframing",
   "Prototyping",
   "Design Systems",
-  "Accessibility",
+  "User Flow",
+  "Visual Design",
+  "Interaction Design",
+  "UX Writing",
+  "Usability Testing",
+  "Responsive UI",
   "Figma",
+  "Adobe XD",
 ];
 
 const DEV = [
   "React",
   "Next.js",
   "React Native",
+  "JavaScript",
+  "HTML",
+  "CSS",
+  "Tailwind CSS",
+];
+
+// Frontend stack, shown as a fallback for HR considering frontend roles.
+const FRONTEND = [
+  "React",
+  "Next.js",
+  "React Native",
+  "JavaScript",
   "TypeScript",
   "Redux",
   "Tailwind CSS",
-  "Ant Design",
-  "ShadCN",
+  "HTML",
+  "CSS",
   "Git",
 ];
 
@@ -51,7 +69,7 @@ const CARDS = [
     n: "03",
     title: "Frontend Engineering",
     blurb:
-      "I build what I design — production-grade React, Next.js and React Native with clean, maintainable code.",
+      "I build what I design: production-grade React, Next.js and React Native with clean, maintainable code.",
     tools: ["React", "Next.js", "React Native", "TypeScript", "Tailwind"],
     dot: "bg-pine",
     accent: "gh-card-pine",
@@ -60,7 +78,7 @@ const CARDS = [
     n: "04",
     title: "Brand & Social",
     blurb:
-      "Brand identities, marketing collateral and social content — the kind that lifted client engagement 30%.",
+      "Brand identities, marketing collateral and social content, the kind that lifted client engagement 30%.",
     tools: ["Branding", "Posters", "LinkedIn", "Instagram"],
     dot: "bg-ochre",
     accent: "gh-card-ochre",
@@ -140,6 +158,37 @@ export default function Skills() {
             </motion.div>
           ))}
         </motion.div>
+      </div>
+
+      {/* Frontend shown as a fallback for HR considering frontend roles */}
+      <div className="section mx-auto mt-6 max-w-[1600px]">
+        <Reveal y={20}>
+          <div className="flex flex-col gap-6 rounded-3xl border border-ink/15 bg-ink/[0.03] p-8 md:flex-row md:items-center md:justify-between md:p-10">
+            <div className="max-w-xl">
+              <div className="mono-label text-ink/45">
+                Also open to frontend roles
+              </div>
+              <h3 className="mt-2 font-display text-2xl font-bold leading-tight md:text-3xl">
+                I also ship production code
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink/65 md:text-base">
+                With 3+ years building React and React Native apps, I&apos;m
+                happy to be considered for frontend or frontend-leaning product
+                roles too.
+              </p>
+            </div>
+            <ul className="flex flex-wrap gap-2 md:max-w-md md:justify-end">
+              {FRONTEND.map((t) => (
+                <li
+                  key={t}
+                  className="rounded-full border border-ink/20 px-3.5 py-1.5 text-xs font-medium text-ink/70"
+                >
+                  {t}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Reveal>
       </div>
     </section>
   );

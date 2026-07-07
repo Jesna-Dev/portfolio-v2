@@ -16,38 +16,38 @@ const TIMELINE: Role[] = [
   {
     year: "2026",
     company: "Fegno Technologies",
-    role: "UX/UI Designer · Kochi, India",
+    role: "UX/UI Designer · Kochi, Kerala",
     blurb:
-      "Designing modern interfaces for websites and apps, plus engaging visuals for marketing and branding — collaborating with clients on clean, intuitive, user-focused solutions.",
+      "Designed modern interfaces for websites and applications while creating engaging digital visuals for marketing and branding. Collaborated with clients to deliver clean, intuitive, and user-focused design solutions.",
     current: true,
   },
   {
-    year: "2025–26",
+    year: "2025",
     company: "Freelance",
-    role: "UX/UI Designer · Kochi, India",
+    role: "UX/UI Designer · Kochi, Kerala",
     blurb:
-      "Created design themes for websites, apps and marketing materials, plus digital graphics for client campaigns — partnering closely with clients on clean, user-focused UI.",
+      "Created modern design themes for websites, apps, and marketing materials. Designed digital graphics and promotional visuals for client campaigns while closely collaborating with clients to deliver clean, user-focused UI designs.",
   },
   {
     year: "2024",
-    company: "The Tower Ideas",
-    role: "UI/UX Designer · Remote, UK",
+    company: "Tower Ideas",
+    role: "Product Designer · Dubai, UAE",
     blurb:
-      "A UK-based IT company specialising in software development, web and mobile applications, and digital transformation — where I worked on user-focused UI/UX design.",
+      "Created intuitive web and app interfaces with modern design systems. Collaborated with teams to produce user-focused layouts and interactive prototypes. Improved usability by refining flows based on client feedback.",
   },
   {
     year: "2023–24",
     company: "Global Invisions",
-    role: "Frontend Developer · Kochi, India",
+    role: "Frontend Developer · Kochi, Kerala",
     blurb:
-      "Developed the Leaders of Change mobile app — engaging UAE volunteers in sustainability initiatives through training and interactive activities — working with the team to deliver a seamless product experience.",
+      "Developed the Leaders of Change mobile application to engage UAE volunteers in sustainability initiatives through training and interactive activities. Collaborated with the team to deliver a high-quality, seamless product experience.",
   },
   {
     year: "2020–23",
     company: "Navalt",
-    role: "Frontend Developer · Kochi, India",
+    role: "Frontend Developer · Kochi, Kerala",
     blurb:
-      "Designed and developed multiple web apps for a Vessel Analytics Platform used across the marine industry — improving vessel performance monitoring with actionable operational insights.",
+      "Developed and designed multiple web applications for a Vessel Analytics Platform used across the marine industry. Built solutions that improved vessel performance monitoring and provided actionable operational insights.",
   },
 ];
 
@@ -64,7 +64,7 @@ export default function Experience() {
 
       <Reveal>
         <h2 className="mt-8 max-w-3xl font-display text-[clamp(2rem,5.6vw,4.6rem)] font-extrabold leading-[0.98] tracking-tightest">
-          Four years, two crafts.
+          Five years, two crafts.
         </h2>
       </Reveal>
 
@@ -116,8 +116,9 @@ export default function Experience() {
           <div>
             <div className="mono-label text-cream/50">Education</div>
             <h3 className="mt-2 font-display text-2xl font-bold md:text-3xl">
-              Bachelor&apos;s in Computer Science
+              Bachelor of Computer Applications (BCA)
             </h3>
+            <div className="mono-label mt-2 text-cream/50">2017–2020</div>
           </div>
           <p className="text-cream/70 md:text-right">
             Mahatma Gandhi University

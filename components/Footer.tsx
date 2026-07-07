@@ -12,6 +12,10 @@ export default function Footer() {
             "Let's talk",
             "Available for work",
             "UI/UX Design",
+            "Product Design",
+            "Design Systems",
+            "Prototyping",
+            "User Research",
             "Frontend Dev",
             "Kochi, India",
           ]}
@@ -52,7 +56,7 @@ export default function Footer() {
 
         <div className="mt-6 flex flex-col gap-3 border-t border-cream/15 pt-6 text-xs text-cream/45 sm:flex-row sm:items-center sm:justify-between">
           <span>© {new Date().getFullYear()} Jesna K Elizabeth Jolly</span>
-          <span>Designed &amp; built with care — Next.js, Tailwind &amp; Framer Motion</span>
+          <span>Designed &amp; built with care using Next.js, Tailwind &amp; Framer Motion</span>
         </div>
       </div>
     </footer>

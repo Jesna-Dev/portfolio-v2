@@ -24,7 +24,7 @@ const PROJECTS: Project[] = [
     year: "2022",
     category: "Data Platform",
     blurb:
-      "A deck-management, weather-prediction and data-visualization platform for the shipping domain — the most successful product I shipped, used to plan and monitor live vessel operations.",
+      "A deck-management, weather-prediction and data-visualization platform for the shipping domain. It was the most successful product I shipped, used to plan and monitor live vessel operations.",
     tags: ["React", "Redux", "Data Viz", "Dashboards"],
     bg: "bg-pine",
     featured: true,
@@ -36,7 +36,7 @@ const PROJECTS: Project[] = [
     year: "2023",
     category: "Mobile App",
     blurb:
-      "A cross-platform volunteering app for Emirates Nature, live on the Apple App Store — built from UX mockups into polished iOS & Android experiences.",
+      "A cross-platform volunteering app for Emirates Nature, live on the Apple App Store, built from UX mockups into polished iOS & Android experiences.",
     tags: ["React Native", "iOS", "Android", "UX"],
     bg: "bg-ochre",
   },
@@ -47,7 +47,7 @@ const PROJECTS: Project[] = [
     year: "2024",
     category: "AI Web App",
     blurb:
-      "Frontend for an AI-backed chat product, delivered with a remote UK team using Next.js and ShadCN — fast, accessible and component-driven.",
+      "Frontend for an AI-backed chat product, delivered with a remote UK team using Next.js and ShadCN. Fast, accessible and component-driven.",
     tags: ["Next.js", "ShadCN", "AI", "UI"],
     bg: "bg-clay",
   },
@@ -58,7 +58,7 @@ const PROJECTS: Project[] = [
     year: "2023",
     category: "Product Suite",
     blurb:
-      "Solo-built the frontend for multiple ERP tools and doorstep-delivery apps — translating wireframes into responsive, interactive products end to end.",
+      "Solo-built the frontend for multiple ERP tools and doorstep-delivery apps, translating wireframes into responsive, interactive products end to end.",
     tags: ["React", "Tailwind", "Ant Design"],
     bg: "bg-sage",
   },
@@ -69,7 +69,7 @@ const PROJECTS: Project[] = [
     year: "2024",
     category: "Branding",
     blurb:
-      "Brand identity, infographics and marketing collateral for a Dubai gold firm — work that lifted client engagement and understanding by 30%.",
+      "Brand identity, infographics and marketing collateral for a Dubai gold firm, work that lifted client engagement and understanding by 30%.",
     tags: ["Branding", "Figma", "Social", "Print"],
     bg: "bg-coral",
   },
@@ -80,7 +80,7 @@ const PROJECTS: Project[] = [
     year: "2020–23",
     category: "Dashboards",
     blurb:
-      "8+ data-intensive dashboards for real-time shipping and vessel management — dense information designed to stay legible and fast.",
+      "8+ data-intensive dashboards for real-time shipping and vessel management, with dense information designed to stay legible and fast.",
     tags: ["React", "Data Viz", "Realtime"],
     bg: "bg-pine",
   },
@@ -179,7 +179,7 @@ export default function Work() {
         </Reveal>
         <Reveal y={18}>
           <p className="max-w-xs text-sm text-ink/55">
-            Visuals are representative — real case-study screenshots can drop
+            Visuals are representative. Real case-study screenshots can drop
             straight into these frames.
           </p>
         </Reveal>

@@ -78,8 +78,8 @@ export default function Hero() {
           {...fade(0.6)}
           className="mt-6 max-w-xl text-base leading-relaxed text-ink/70 md:text-lg"
         >
-          I spent 4 years building data-heavy React apps — vessel dashboards, an
-          App-Store-published mobile app, AI chat — before moving into design.
+          I spent 3+ years building data-heavy React apps like vessel dashboards, an
+          App-Store-published mobile app, and AI chat before moving into design.
           Now I craft interfaces with a builder&apos;s eye for what actually
           ships.
         </motion.p>
