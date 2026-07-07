@@ -30,10 +30,10 @@ const TIMELINE: Role[] = [
   },
   {
     year: "2024",
-    company: "Maa Gold LLC",
-    role: "UI/UX Designer | Product Designer · Dubai, UAE",
+    company: "The Tower Ideas",
+    role: "UI/UX Designer · Remote, UK",
     blurb:
-      "Built intuitive web and app interfaces on modern design systems — producing user-focused layouts and interactive prototypes, and improving usability by refining flows from client feedback.",
+      "A UK-based IT company specialising in software development, web and mobile applications, and digital transformation — where I worked on user-focused UI/UX design.",
   },
   {
     year: "2023–24",
