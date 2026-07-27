@@ -56,7 +56,7 @@ export default function Experience() {
     <section className="section mx-auto max-w-[1600px] py-24 md:py-36">
       <Reveal>
         <div className="mono-label flex items-center gap-3 text-ink/45">
-          <span>(04)</span>
+          <span>(05)</span>
           <span className="h-px w-10 bg-ink/25" />
           <span>Experience</span>
         </div>
